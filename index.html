@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,500;1,800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="header">
@@ -20,12 +20,12 @@
                 <img class="close" src="images/xmark-solid white.svg" onclick="hideMenu()">
                <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SOCIAL MEDIA</a></li>
-                    <li><a href="">CONTACT US</a></li> 
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#about">SOCIAL MEDIA</a></li>
+                    <li><a href="#main">CONTACT US</a></li> 
                </ul>
             </div>
-            <img class="close" src="images/bars-solid white.svg" onclick="showMenu()">
+            <i class="fa-solid fa-bars" id="close" style="color: #ffffff;" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>
@@ -64,23 +64,15 @@
         <p>
             We teach free online course on youTube,facebook and instagram.
         </p>
-
-        <div class="row">
-            <div class="advid">
-                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/i6oCmvycOLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="advid">
-                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/JUjPbDC9Ebc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="advid">
-                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/lldw89lDkPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+        <div class="container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lldw89lDkPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+        <a href="https://www.youtube.com/channel/UC6NWxy9BadmqFRDqG9KGPCA"><button> See More ...</button></a>
     </section>
 
 
     <!-- Contact US -->
-    <section class="main">
+    <section id="main" class="main">
         <section class="contact">
             <form action="post">
                 <h2 class="msg-sech2">CONTACT US</h2>
@@ -92,7 +84,7 @@
         </section>
 
 
-        <section class="about">
+        <section id="about" class="about">
             <h3>
                 About Us
             </h3>
@@ -100,11 +92,11 @@
                 SUCCESS MIND ENTREPRENEURS is a team of proffesional Entrepreneurs or business oriented personel helping you to build your dream, through our proven system we teach you how and also show you the light System to work it.We teach you how you can connect with So many people and grow your business,<br> How you can be making money while you are still a student, what leveraging is all about, why you must be rich, The kinds of mindset and the right mindset to develope.Here is where we collect Ideas and put it into practice or work it out for a better future,<br> We are a group of Like minded individuals putting minds together to create something magnificent that will benefit the world, creativity is our product. Building and creating the best strategies in the world, especially in the business category.
             </p>
             <div class="icon">
-                <img src="images/facebook.svg">
-                <img src="images/instagram.svg">
-                <img src="images/envelope-solid.svg">
+                <a href="https://www.facebook.com/Agozie88"><img src="images/facebook.svg"></a>
+                <a href="https://www.instagram.com"><img src="images/instagram.svg"></a>
+                <a href="www.gmail.com/AgozieGreat"><img src="images/envelope-solid.svg"></a>
             </div>
-            <p>Made with <img class="love" src="images/heart-solid.svg"> by Izrael</p>
+            <p>Made with <img class="love" src="images/heart-solid.svg"> by <a class="me" href="">Izrael</a></p>
         </section>
     
     </section>
