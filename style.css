@@ -135,6 +135,9 @@ nav img{
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
+    }
+    *{
+        max-width: 366px;
     }   
 }
 .profile{
@@ -168,10 +171,16 @@ nav img{
     padding-top: 50px;
     margin-bottom: 50px;
 }
+.advid{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
 .container{
     height: 300px;
 }
-.videos a button{
+.advid a button{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -184,7 +193,7 @@ nav img{
     font-weight: bold;
     margin-top: 20px;
 }
-.videos a button:hover{
+.advid a button:hover{
     border: 1px solid #f44336;
     background: #f44336;
     transition: 1s;
