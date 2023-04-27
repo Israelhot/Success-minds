@@ -1,8 +1,15 @@
-let navLinks = document.getElementById("navLinks");
+let menu = document.getElementById("menu");
 
-function showMenu(){
-    navLinks.style.right = "0";
-}
-function hideMenu(){
-    navLinks.style.right = "-200px";
+menu.style.maxHeight = "0px";
+function showMenu()
+{
+    if(menu.style.maxHeight == "0px")
+    {
+        menu.style.maxHeight = "200px";
+        
+    }
+    else
+    {
+        menu.style.maxHeight = "0px"; 
+    }
 }
