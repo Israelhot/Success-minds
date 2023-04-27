@@ -285,7 +285,7 @@ button{
 form 
 button:hover{
     background: transparent;
-    border: 1px solid #f44336;
+    border: 1px solid #777;
 }
 input{
     height: 3rem;
